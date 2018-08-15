@@ -37,20 +37,20 @@ lambertian_roughness = 0.25
 
 
 # Carbon Tiles
-TILES_HFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_tiles_hfs.stl'), Lambert(ConstantSF(lambertian_roughness)))]
-TILES_LFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_tiles_lfs.stl'), Lambert(ConstantSF(lambertian_roughness)))]
-TILES_ROOF = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_tiles_roof.stl'), Lambert(ConstantSF(lambertian_roughness)))]
-TILES_FLOOR = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_tiles_floor.stl'), Lambert(ConstantSF(lambertian_roughness)))]
+TILES_HFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_tiles_hfs.rsm'), Lambert(ConstantSF(lambertian_roughness)))]
+TILES_LFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_tiles_lfs.rsm'), Lambert(ConstantSF(lambertian_roughness)))]
+TILES_ROOF = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_tiles_roof.rsm'), Lambert(ConstantSF(lambertian_roughness)))]
+TILES_FLOOR = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_tiles_floor.rsm'), Lambert(ConstantSF(lambertian_roughness)))]
 CARBON_TILES = TILES_HFS + TILES_LFS + TILES_ROOF + TILES_FLOOR
 
 # Vessel structures
-PORTS_FLOOR = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_ports_floor.stl'), RoughTungsten(tungsten_roughness))]
-PORTS_ROOF = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_ports_roof.stl'), RoughTungsten(tungsten_roughness))]
-PORTS_LFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_ports_lfs.stl'), RoughTungsten(tungsten_roughness))]
-VESSEL_FLOOR = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_vessel_floor.stl'), RoughTungsten(tungsten_roughness))]
-VESSEL_ROOF = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_vessel_roof.stl'), RoughTungsten(tungsten_roughness))]
-VESSEL_HFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_vessel_hfs.stl'), RoughTungsten(tungsten_roughness))]
-VESSEL_LFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_vessel_lfs.stl'), RoughTungsten(tungsten_roughness))]
+PORTS_FLOOR = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_ports_floor.rsm'), RoughTungsten(tungsten_roughness))]
+PORTS_ROOF = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_ports_roof.rsm'), RoughTungsten(tungsten_roughness))]
+PORTS_LFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_ports_lfs.rsm'), RoughTungsten(tungsten_roughness))]
+VESSEL_FLOOR = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_vessel_floor.rsm'), RoughTungsten(tungsten_roughness))]
+VESSEL_ROOF = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_vessel_roof.rsm'), RoughTungsten(tungsten_roughness))]
+VESSEL_HFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_vessel_hfs.rsm'), RoughTungsten(tungsten_roughness))]
+VESSEL_LFS = [(os.path.join(CADMESH_PATH, 'tcv/mesh/medium_vessel_lfs.rsm'), RoughTungsten(tungsten_roughness))]
 VESSEL = PORTS_FLOOR + PORTS_ROOF + PORTS_LFS + VESSEL_FLOOR + VESSEL_ROOF + VESSEL_HFS + VESSEL_LFS
 
 
