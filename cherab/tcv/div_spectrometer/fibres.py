@@ -40,6 +40,13 @@ angles = [  -0.391012817621231,
             -0.00931951310485601,
             0.00364970066584647]
 
+def endpoint(start, angle, length):
+
+    endx = start[0] - length * np.cos(angle)
+    endy = start[1] + length * np.sin(angle)
+
+    return [endx, endy]
+
 
 class fibres:
     """
@@ -49,8 +56,8 @@ class fibres:
     def __init__(self):
         self.loaded = -1
         self.set_bundle(group=1)
-	self.fibre_r_z=[endpoint(start, a, 0.35) for a in angles]
-        
+        self.fibre_r_z=[endpoint(start, a, 0.5) for a in angles]
+
     def set_bundle(self, group=None, fibre=12):
         if group == 1:
             self.group = 1
@@ -59,15 +66,15 @@ class fibres:
             self.loaded = 1
 
     def set_fibre(self, number=1):
-        self.set_bundle(group = self.group, fibre=number) 
-                   
+        self.set_bundle(group = self.group, fibre=number)
+
     def load_ROV(self,fibre):
         self.origin = self.machine_coordinates(*start, 180)
         if fibre in range(len(self.fibre_r_z)):
             self.term = self.machine_coordinates(*self.self.fibre_r_z[fibre], 180)
 
-	self.distance = self.fibre_distance_world(-1)
-        
+        self.distance = self.fibre_distance_world(-1)
+
     def machine_coordinates(self,R,Z,phi):
         return ( R * math.cos(phi * radians), R * math.sin(phi * radians), Z )
 
@@ -82,5 +89,3 @@ class fibres:
 
     def fibre_distance_world(self,world):
         return np.sqrt( (self.origin[0]-self.term[0])**2 + (self.origin[1]-self.term[1])**2 + (self.origin[2]-self.term[2])**2)
-
-    
