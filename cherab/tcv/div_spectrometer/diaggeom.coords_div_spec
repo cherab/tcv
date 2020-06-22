@@ -1,0 +1,121 @@
+DIV (All possible lines of sight) #36793 2s
+  RIN (Line of sight)
+     1. From R= 1.400m, z=-1.234m, phi=90.469
+        To   R= 1.108m, z= 0.560m, phi=91.749
+     2. From R= 1.400m, z=-1.234m, phi=90.469
+        To   R= 1.182m, z= 0.839m, phi=91.809
+     3. From R= 1.400m, z=-1.234m, phi=90.469
+        To   R= 1.292m, z= 1.035m, phi=91.655
+     4. From R= 1.400m, z=-1.234m, phi=90.469
+        To   R= 1.423m, z= 1.142m, phi=91.487
+     5. From R= 1.400m, z=-1.234m, phi=90.469
+        To   R= 1.566m, z= 1.167m, phi=91.242
+     7. From R= 1.400m, z=-1.234m, phi=90.469
+        To   R= 1.822m, z= 1.000m, phi=90.975
+     8. From R= 1.400m, z=-1.234m, phi=90.469
+        To   R= 1.918m, z= 0.847m, phi=90.829
+  RIV (Line of sight)
+     1. From R= 1.379m, z=-1.177m, phi=67.628
+        To   R= 1.240m, z=-1.111m, phi=427.494
+     2. From R= 1.379m, z=-1.177m, phi=67.628
+        To   R= 1.244m, z=-1.099m, phi=427.471
+     3. From R= 1.379m, z=-1.177m, phi=67.628
+        To   R= 1.248m, z=-1.087m, phi=427.483
+     4. From R= 1.379m, z=-1.177m, phi=67.628
+        To   R= 1.253m, z=-1.073m, phi=427.456
+     5. From R= 1.379m, z=-1.177m, phi=67.628
+        To   R= 1.258m, z=-1.058m, phi=427.460
+     6. From R= 1.379m, z=-1.177m, phi=67.628
+        To   R= 1.263m, z=-1.044m, phi=427.404
+     7. From R= 1.419m, z=-1.135m, phi=68.144
+        To   R= 1.263m, z=-1.045m, phi=67.514
+     8. From R= 1.419m, z=-1.135m, phi=68.144
+        To   R= 1.268m, z=-1.031m, phi=67.522
+     9. From R= 1.419m, z=-1.135m, phi=68.144
+        To   R= 1.274m, z=-1.015m, phi=67.510
+    10. From R= 1.419m, z=-1.135m, phi=68.144
+        To   R= 1.279m, z=-0.999m, phi=67.501
+    11. From R= 1.419m, z=-1.135m, phi=68.144
+        To   R= 1.285m, z=-0.981m, phi=427.491
+    12. From R= 1.419m, z=-1.135m, phi=68.144
+        To   R= 1.287m, z=-0.957m, phi=427.495
+  ROV (Line of sight)
+     1. From R= 1.438m, z=-1.194m, phi=112.541
+        To   R= 1.581m, z=-1.202m, phi=112.592
+     2. From R= 1.438m, z=-1.194m, phi=112.541
+        To   R= 1.584m, z=-1.191m, phi=112.556
+     3. From R= 1.438m, z=-1.194m, phi=112.541
+        To   R= 1.587m, z=-1.178m, phi=112.544
+     4. From R= 1.438m, z=-1.194m, phi=112.541
+        To   R= 1.591m, z=-1.165m, phi=112.532
+     5. From R= 1.438m, z=-1.194m, phi=112.541
+        To   R= 1.595m, z=-1.150m, phi=112.517
+     6. From R= 1.438m, z=-1.194m, phi=112.541
+        To   R= 1.598m, z=-1.136m, phi=112.508
+     7. From R= 1.438m, z=-1.194m, phi=112.541
+        To   R= 1.603m, z=-1.118m, phi=112.507
+     8. From R= 1.409m, z=-1.147m, phi=112.665
+        To   R= 1.602m, z=-1.123m, phi=112.543
+     9. From R= 1.409m, z=-1.147m, phi=112.665
+        To   R= 1.607m, z=-1.105m, phi=112.551
+    10. From R= 1.409m, z=-1.147m, phi=112.665
+        To   R= 1.612m, z=-1.086m, phi=112.546
+    11. From R= 1.409m, z=-1.147m, phi=112.665
+        To   R= 1.617m, z=-1.065m, phi=112.529
+    12. From R= 1.409m, z=-1.147m, phi=112.665
+        To   R= 1.624m, z=-1.041m, phi=112.538
+    13. From R= 1.409m, z=-1.147m, phi=112.665
+        To   R= 1.631m, z=-1.013m, phi=112.537
+    14. From R= 1.409m, z=-1.147m, phi=112.665
+        To   R= 1.641m, z=-0.980m, phi=112.554
+  RXV (Line of sight)
+     1. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.272m, z=-1.020m, phi=112.467
+     2. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.283m, z=-0.987m, phi=112.453
+     3. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.287m, z=-0.954m, phi=112.481
+     4. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.284m, z=-0.920m, phi=112.480
+     5. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.275m, z=-0.882m, phi=112.442
+     6. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.256m, z=-0.839m, phi=112.439
+     7. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.226m, z=-0.788m, phi=112.453
+     8. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.186m, z=-0.725m, phi=112.412
+     9. From R= 1.752m, z=-1.001m, phi=112.445
+        To   R= 1.140m, z=-0.653m, phi=112.409
+  ZIV (Line of sight)
+     2. From R= 1.438m, z=-1.217m, phi=90.267
+        To   R= 1.583m, z= 1.160m, phi=103.932
+     3. From R= 1.438m, z=-1.217m, phi=90.267
+        To   R= 1.126m, z= 0.635m, phi=98.482
+     4. From R= 1.438m, z=-1.217m, phi=90.267
+        To   R= 1.063m, z= 0.309m, phi=94.989
+     5. From R= 1.438m, z=-1.217m, phi=90.267
+        To   R= 1.044m, z= 0.046m, phi=93.534
+     6. From R= 1.438m, z=-1.217m, phi=90.267
+        To   R= 1.052m, z=-0.202m, phi=92.674
+     7. From R= 1.438m, z=-1.217m, phi=90.267
+        To   R= 1.081m, z=-0.422m, phi=92.002
+     8. From R= 1.438m, z=-1.217m, phi=90.267
+        To   R= 1.287m, z=-0.928m, phi=90.777
+  ZON (Line of sight)
+     1. From R= 1.352m, z=-1.168m, phi=90.577
+        To   R= 1.793m, z=-0.779m, phi=90.108
+     2. From R= 1.352m, z=-1.168m, phi=90.577
+        To   R= 2.004m, z=-0.519m, phi=89.890
+     3. From R= 1.352m, z=-1.168m, phi=90.577
+        To   R= 2.096m, z=-0.340m, phi=89.776
+     4. From R= 1.352m, z=-1.168m, phi=90.577
+        To   R= 2.169m, z=-0.144m, phi=89.677
+     5. From R= 1.352m, z=-1.168m, phi=90.577
+        To   R= 2.201m, z= 0.034m, phi=89.562
+     7. From R= 1.352m, z=-1.168m, phi=90.577
+        To   R= 2.172m, z= 0.341m, phi=89.435
+     8. From R= 1.352m, z=-1.168m, phi=90.577
+        To   R= 2.126m, z= 0.466m, phi=89.344
+     9. From R= 1.352m, z=-1.168m, phi=90.577
+        To   R= 2.069m, z= 0.599m, phi=89.334
