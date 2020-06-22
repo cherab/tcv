@@ -47,6 +47,7 @@ def endpoint(start, angle, length):
 
     return [endx, endy]
 
+fibre_r_z=[endpoint(start, a, 0.5) for a in angles]
 
 class fibres:
     """
@@ -56,7 +57,6 @@ class fibres:
     def __init__(self):
         self.loaded = -1
         self.set_bundle(group=1)
-        self.fibre_r_z=[endpoint(start, a, 0.5) for a in angles]
 
     def set_bundle(self, group=None, fibre=12):
         if group == 1:
@@ -70,8 +70,8 @@ class fibres:
 
     def load_ROV(self,fibre):
         self.origin = self.machine_coordinates(*start, 180)
-        if fibre in range(len(self.fibre_r_z)):
-            self.term = self.machine_coordinates(*self.self.fibre_r_z[fibre], 180)
+        if fibre in range(len(fibre_r_z)):
+            self.term = self.machine_coordinates(*fibre_r_z[fibre], 180)
 
         self.distance = self.fibre_distance_world(-1)
 
