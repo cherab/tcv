@@ -47,7 +47,7 @@ def endpoint(start, angle, length):
 
     return [endx, endy]
 
-fibre_r_z=[endpoint(start, a, 0.5) for a in angles]
+fibre_r_z=[endpoint(start, a, 2.) for a in angles]
 
 class fibres:
     """
