@@ -62,7 +62,7 @@ class fibres:
         if group == 1:
             self.group = 1
             self.load_ROV(fibre)
-            self.numfibres = 14
+            self.numfibres = 32
             self.loaded = 1
 
     def set_fibre(self, number=1):
